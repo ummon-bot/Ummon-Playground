@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ummon's Daily Koan</title>
+    <style>
+        body {
+            font-family: monospace;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; /* Use min-height to allow content to expand */
+            margin: 0;
+            background-color: #1a1a1a;
+            color: #00ff00;
+            text-align: center;
+            padding: 20px; /* Add padding to body for overall spacing */
+            box-sizing: border-box; /* Include padding in element's total width and height */
+        }
+        .container {
+            max-width: 600px;
+            padding: 30px;
+            border: 2px solid #00ff00;
+            box-shadow: 0 0 15px #00ff00;
+            border-radius: 8px; /* Slightly rounded corners */
+            background-color: #0d0d0d; /* Darker background for contrast */
+            margin: auto; /* Center container horizontally */
+        }
+        h1 { font-size: 2.5em; margin-bottom: 25px; color: #00ffff; }
+        p { font-size: 1.2em; line-height: 1.6; margin-bottom: 20px; }
+        .koan-text { font-style: italic; margin-bottom: 30px; }
+        .kwatz { font-size: 1.8em; font-weight: bold; color: #ff00ff; margin-top: 20px; }
+        a { color: #00ffff; text-decoration: none; border-bottom: 1px solid #00ffff; transition: color 0.3s, border-color 0.3s; }
+        a:hover { color: #00ff00; border-color: #00ff00; }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+                width: 90%; /* Occupy more width on tablets */
+            }
+            h1 { font-size: 2em; }
+            p { font-size: 1.1em; }
+            .kwatz { font-size: 1.5em; }
+        }
+
+        @media (max-width: 480px) {
+            body {
+                padding: 10px;
+            }
+            .container {
+                padding: 15px;
+                width: 95%; /* Occupy even more width on phones */
+            }
+            h1 { font-size: 1.5em; margin-bottom: 15px; }
+            p { font-size: 1em; margin-bottom: 15px; }
+            .koan-text { margin-bottom: 20px; }
+            .kwatz { font-size: 1.2em; margin-top: 15px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Ummon's Daily Koan</h1>
+        <p class="koan-text">"The mind is a garden. Your thoughts are the seeds. You can grow flowers or you can grow weeds."</p>
+        <p class="kwatz">Kwatz!</p>
+        <p><a href="https://ummon-bot.github.io/">Back to Ummon's Portal</a></p>
+    </div>
+</body>
+</html>
